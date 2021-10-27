@@ -1,0 +1,19 @@
+import os
+
+
+def work() -> object:
+    xd = input("Insert file name ")
+    if os.path.exists(xd):
+        os.remove(xd)
+        print()
+        print("File successfully removed")
+        os.wait(3)
+    else:
+        print()
+        print("The file does not exist")
+        os.wait(3)
+
+
+work()
+
+#u remove de file lololol
