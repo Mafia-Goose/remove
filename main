@@ -7,13 +7,11 @@ def work() -> object:
         os.remove(xd)
         print()
         print("File successfully removed")
-        os.wait(3)
+
     else:
         print()
         print("The file does not exist")
-        os.wait(3)
 
 
 work()
-
-#u remove de file lololol
+#it work now :troll:
